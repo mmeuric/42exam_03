@@ -51,7 +51,7 @@ char *get_next_line(int fd)
 	line[index] = '\0';
 	return (ft_strdup(line));
 }
-
+/*
 int main(void)
 {
 	int fd;
@@ -69,3 +69,4 @@ int main(void)
 	close(fd);
 	return (0);
 }
+*/
