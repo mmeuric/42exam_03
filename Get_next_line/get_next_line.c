@@ -1,5 +1,10 @@
 // #include "get_next_line.h"   /!\ not for exam 
 
+#include <stdlib.h>
+#include <unistd.h>
+#include <stdio.h>
+#include <fcntl.h>
+
 char *ft_strdup(char *string)
 {
 	int index;
