@@ -1,4 +1,4 @@
-#include "get_next_line.h"
+// #include "get_next_line.h"   /!\ not for exam 
 
 char *ft_strdup(char *string)
 {
