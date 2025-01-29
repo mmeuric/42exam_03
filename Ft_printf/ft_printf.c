@@ -60,7 +60,7 @@ int	ft_printf(const char *string, ...)
 	va_end(argument);
 	return (length);
 }
-
+/*
 int main (void)
 {
 	// Example with strings
@@ -89,3 +89,4 @@ int main (void)
 
 	return (0);
 }
+*/
