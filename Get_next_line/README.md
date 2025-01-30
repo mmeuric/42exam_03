@@ -3,8 +3,6 @@
 ### 📂 **Expected Files**
 
 📝 **1. get_next_line.c**  
-📝 **2. get_next_line.h**
-
 
 
 ### 🚨 **Allowed Functions**
