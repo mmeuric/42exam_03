@@ -1,4 +1,4 @@
-// #include "get_next_line.h"   /!\ not for exam 
+// #include "get_next_line.h"   /!\ not for exam
 
 #include <stdlib.h>
 #include <unistd.h>
