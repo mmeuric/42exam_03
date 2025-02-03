@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <stdio.h>
-#include <fcntl.h>
+#include <fcntl.h>l
 
 char *ft_strdup(char *string)
 {
