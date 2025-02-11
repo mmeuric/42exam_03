@@ -1,15 +1,15 @@
 #include <unistd.h>
 #include <stdarg.h>
 
-void put_str(char *string, int *length)
+void put_str(char *str, int *len)
 {
-	int index;
+	int i;
 
-	index = 0;
-	if (!string)
-		string = "(null)";
-	while (string[index])
-		*length += write(1, &string[index++], 1);
+	i = 0;
+	if (!str)
+		str = "(null)";
+	while (str[i])
+		*len += write(1, &str[i++], 1);
 
 }
 
