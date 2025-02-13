@@ -51,7 +51,7 @@ char *get_next_line(int fd)
 		if (line[index - 1] == '\n' || line[index - 1] == EOF)
 			break ;
 	}
-	if (index == 0) // acordarse que es index 
+	if (index == 0  || buffer_read < 0)  
 		return (NULL);
 	line[index] = '\0';
 	return (ft_strdup(line));
