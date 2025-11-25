@@ -30,7 +30,7 @@ char *get_next_line(int fd)
 {
 	static char buffer[BUFFER_SIZE];
 	static int buffer_index = 0;
-	static int buffer_readed = 0; // es un int no un char 
+	static int buffer_readed = 0; 
 	int index;
 	char line[70000];
 
@@ -43,7 +43,7 @@ char *get_next_line(int fd)
 		{
 			buffer_readed = read(fd, buffer, BUFFER_SIZE);
 			buffer_index = 0;
-			if (buffer_readed <= 0) // Acordarse de esto
+			if (buffer_readed <= 0)
 				break ;
 		}
 		line[index++] = buffer[buffer_index++];
@@ -66,7 +66,7 @@ int main(void)
 	if (fd < 0)
 		return (printf("Fd cant be openned\n"), 1);
 
-	while ((line = get_next_line(fd))) // acordarme que son 3 parentesis
+	while ((line = get_next_line(fd)))
 	{
 		printf("%s", line);
 		free(line);
